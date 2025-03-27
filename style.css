@@ -136,23 +136,24 @@ table {
 
 /*INICIO DO CÓDIGO*/
 
+.tamanho{
+    width: 1200px;
+    margin: 0 auto;
+}
 
 .cabecalho{
     display: flex;
-    align-items: center;
 font-family: arial;
-justify-content: space-around;
+justify-content: center;
 }
 
-.menu{
+.tutulo{
     display: flex;
+align-items: center;
+font-family: Aria;
+background-color: aqua;
 }
-
-.titulo{
-display: flex;
-}
-.centro{
+.subtitulo{
     padding-left: 15px;
-    display: block;
-    
+
 }
