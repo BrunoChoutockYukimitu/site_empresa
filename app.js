@@ -1,6 +1,7 @@
+function fnSaudaCao(){
 let nomeCompleto = prompt ("informe seu nome completo")
-console.log(nomeCompleto)
-
+alert("Seja bem vindo(a) " + nomeCompleto + " ao meu site!")
+}
 function fnTrocarDeCorDeFundo(){
 let cor = prompt ("Informe uma cor:\n 1 azul \n 2 vermelno \n 3 preto")
 let corDeFundo = null
@@ -19,5 +20,3 @@ else {
 
 document.body.style.backgroundColor = corDeFundo
 }
-
-fnTrocarDeCorDeFundo()

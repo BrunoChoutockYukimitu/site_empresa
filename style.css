@@ -154,6 +154,7 @@ font-family: Aria;
 background-color: aqua;
 }
 .subtitulo{
-    padding-left: 15px;
-
+display: flex;
+align-items: center;
 }
+
