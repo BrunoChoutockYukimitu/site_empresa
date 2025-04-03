@@ -136,11 +136,6 @@ table {
 
 /*INICIO DO CÓDIGO*/
 
-.tamanho{
-    width: 1200px;
-    margin: 0 auto;
-}
-
 .cabecalho{
     display: flex;
 font-family: arial;

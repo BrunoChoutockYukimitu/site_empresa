@@ -32,3 +32,51 @@ function fnMostraHoraAtual() {
 function fnTrocarTitulo() {
     document.getElementById("titulo").innertext = "Titulo novo do meu site"
 }
+
+function fnIndiomaPortugues(){
+    document.getElementById("menu1").inertText = "INICIAL-"
+    document.getElementById("menu2").inertText = "SERVIÇOS-"
+     document.getElementById("menu3").inertText = "CONTATO"
+}
+
+function fnIndiomaIngues(){
+    document.getElementById("menu1").inertText = "HOME-"
+    document.getElementById("menu2").inertText = "SERVICES-"
+     document.getElementById("menu3").inertText = "CONTACT"
+}
+
+function fnBanner1(){
+    document.getElementById("banner").src=""
+}
+
+function fnBanner2(){
+    document.getElementById("banner").src="imagens/baner2.jpg"
+}
+
+function fnBanner3(){
+    document.getElementById("banner").src="imagens/baner3.jpg"
+}
+
+function fnDestaque1Trocar(){
+    document.getElementById("destaque1").src="imagens/destaque01.jpg"
+}
+
+function fnDestaque1Original(){
+
+}
+
+function fnDestaque2Trocar(){
+    document.getElementById("destaque2").src="imagens/destaque02.jpg"
+}
+
+function fnDestaque2Original(){
+
+}
+
+function fnDestaque3Trocar(){
+    document.getElementById("destaque3").src="imagens/destaque03.jpg" 
+}
+
+function fnDestaque3Original(){
+
+}
