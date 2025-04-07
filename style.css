@@ -138,18 +138,29 @@ table {
 
 .cabecalho{
     display: flex;
-font-family: arial;
-justify-content: center;
+    justify-content: center;
+    flex-direction: column;
 }
-
-.tutulo{
+.body{
+    background-color: #ede5e0;
+}
+.titulo{
+   color: #5e8fc9;
+   font-family :'"Arial"';
+   font-size: 32px;
+   text-align: center;
+   padding-top: 30px;
+   font-weight: bold;
+}
+ 
+.subtitulos{
     display: flex;
-align-items: center;
-font-family: Aria;
-background-color: aqua;
+    padding-top: 20px;
+    justify-content: center;
 }
+ 
 .subtitulo{
-display: flex;
-align-items: center;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: none;
 }
-
